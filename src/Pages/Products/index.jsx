@@ -17,9 +17,7 @@ const Products = () => {
     return (
         <div>
             <p>
-                {products.map((product) => {
-                    return product.name;
-                })}
+                {console.log(products)}
             </p>
         </div>
     )
